@@ -276,7 +276,7 @@ location_descriptions = {
     "Boss Rewards": "Boss drops. Does not include soul transfusions or shop items.",
     "Upgrade": "Locations that contain upgrade items in vanilla, including titanite, gems, and " + \
                "Shriving Stones.",
-    "Unique": "Locations that contain items in vanilla that are unique per NG cycle."
+    "Unique": "Locations that contain items in vanilla that are unique per NG cycle.",
     "Miscellaneous": "Locations that contain generic stackable items in vanilla."
 }
 
