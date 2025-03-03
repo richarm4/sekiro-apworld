@@ -365,9 +365,9 @@ class SekiroWorld(World):
         self._add_entrance_rule("Fountainhead Palace", "Aromatic Branch")
         self._add_entrance_rule("Ashina Castle after Central Forces", lambda state: self._can_get(state, "FP: Divine Dragon's Tears"))
         self._add_location_rule("FP: Divine Dragon's Tears", "Mibu Breathing Technique")
-        self._add_location_rule("ARE - Memory: Saint Isshin", "Secret Passage Key")
+        self._add_location_rule("ARE: Memory: Saint Isshin", "Secret Passage Key")
         
-        self.multiworld.completion_condition[self.player] = lambda state: self._can_get(state, "ARE - Memory: Saint Isshin") and state.has("Divine Dragon's Tears", self.player)
+        self.multiworld.completion_condition[self.player] = lambda state: self._can_get(state, "ARE: Memory: Saint Isshin") and state.has("Divine Dragon's Tears", self.player)
 
     def _add_shop_rules(self) -> None:
         """Adds rules for items unlocked in shops."""

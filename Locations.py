@@ -190,7 +190,7 @@ class SekiroLocation(Location):
 #   naturally available as part of their quest.
 location_tables: Dict[str, List[SekiroLocationData]] = {
     "Dilapidated Temple": [ 
-        SekiroLocationData("Shinobi Prosthetic - arrive at DT", "Shinobi Prosthetic")     
+        SekiroLocationData("DT: Shinobi Prosthetic - arrive at DT", "Shinobi Prosthetic")     
               ],
     "Ashina Outskirts": [ 
         SekiroLocationData("AO: Young Lord's Bell Charm - speak to Inosuke Nogami's mother", "Young Lord's Bell Charm")
@@ -202,12 +202,12 @@ location_tables: Dict[str, List[SekiroLocationData]] = {
     "Ashina Reservoir": [ 
               ],
     "Ashina Reservoir Ending": [ 
-        SekiroLocationData("ARE - Memory: Saint Isshin", "Memory: Saint Isshin")
+        SekiroLocationData("ARE: Memory: Saint Isshin", "Memory: Saint Isshin")
               ],
     "Ashina Castle": [ 
         SekiroLocationData("AC: Gatehouse Key - dropped by enemy on bridge leading to Abandoned Dungeon entrance", "Gatehouse Key"),
         SekiroLocationData("AC: Memory: Genichiro", "Memory: Genichiro"),
-        SekiroLocationData("Gun Fort Shrine Key - speak to Kuro", "Gun Fort Shrine Key")
+        SekiroLocationData("AC: Gun Fort Shrine Key - speak to Kuro", "Gun Fort Shrine Key")
               ],
     "Ashina Castle after Interior Ministry": [
         SekiroLocationData("DT: Father's Bell Charm - Emma questline", "Father's Bell Charm"),
@@ -263,12 +263,8 @@ location_name_groups: Dict[str, Set[str]] = {
     "Prominent": set(),
     "Progression": set(),
     "Boss Rewards": set(),
-    "Miniboss Rewards": set(),
-    "Friendly NPC Rewards": set(),
     "Unique": set(),
-    "Healing": set(),
     "Miscellaneous": set(),
-    "Hidden": set(),
 }
 
 location_descriptions = {
