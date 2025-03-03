@@ -272,24 +272,12 @@ location_name_groups: Dict[str, Set[str]] = {
 }
 
 location_descriptions = {
-    "Prominent": "A small number of locations that are in very obvious locations. Mostly boss " + \
-                 "drops. Ideal for setting as priority locations.",
     "Progression": "Locations that contain items in vanilla which unlock other locations.",
     "Boss Rewards": "Boss drops. Does not include soul transfusions or shop items.",
-    "Miniboss Rewards": "Miniboss drops. Only includes enemies considered minibosses by the " + \
-                        "enemy randomizer.",
-    "Friendly NPC Rewards": "Items given by friendly NPCs as part of their quests or from " + \
-                            "non-violent interaction.",
     "Upgrade": "Locations that contain upgrade items in vanilla, including titanite, gems, and " + \
                "Shriving Stones.",
-    "Unique": "Locations that contain items in vanilla that are unique per NG cycle, such as " + \
-              "scrolls, keys, ashes, and so on. Doesn't cover equipment, spells, or souls.",
-    "Healing": "Locations that contain Undead Bone Shards and Estus Shards in vanilla.",
-    "Miscellaneous": "Locations that contain generic stackable items in vanilla, such as arrows, " +
-                     "firebombs, buffs, and so on.",
-    "Hidden": "Locations that are particularly difficult to find, such as behind illusory " + \
-              "walls, down hidden drops, and so on. Does not include large locations like Untended " + \
-              "Graves or Archdragon Peak.",
+    "Unique": "Locations that contain items in vanilla that are unique per NG cycle."
+    "Miscellaneous": "Locations that contain generic stackable items in vanilla."
 }
 
 location_dictionary: Dict[str, SekiroLocationData] = {}
